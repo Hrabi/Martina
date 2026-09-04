@@ -1,0 +1,16 @@
+# Citlivé nebo osobní podklady
+private/
+emails/
+attachments/
+
+# Lokální pracovní soubory
+work/
+.env
+*.tmp
+~$*
+Thumbs.db
+.DS_Store
+
+# Exporty kancelářských aplikací
+*.bak
+*.autosave
