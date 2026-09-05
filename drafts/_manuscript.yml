@@ -1,0 +1,18 @@
+version: 1
+language: cs
+source_of_truth: drafts
+pages:
+  - drafts/00-front-matter/index.md
+  - drafts/00-front-matter/10-abstract-cs.md
+  - drafts/00-front-matter/20-abstract-en.md
+  - drafts/10-introduction/index.md
+  - drafts/20-theoretical-background/index.md
+  - drafts/30-aims-and-questions/index.md
+  - drafts/40-methodology/index.md
+  - drafts/50-results/index.md
+  - drafts/60-discussion/index.md
+  - drafts/70-conclusion/index.md
+  - drafts/80-references/index.md
+  - drafts/90-appendices/index.md
+bibliography: sources/library.bib
+output_directory: exports

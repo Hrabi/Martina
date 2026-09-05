@@ -5,6 +5,7 @@ attachments/
 
 # Lokální pracovní soubory
 work/
+tmp/
 .env
 *.tmp
 ~$*
@@ -12,5 +13,7 @@ Thumbs.db
 .DS_Store
 
 # Exporty kancelářských aplikací
+exports/
+build/
 *.bak
 *.autosave

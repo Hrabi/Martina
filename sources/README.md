@@ -1,13 +1,14 @@
 # Evidence zdrojů
 
-U každého zdroje zaznamenej alespoň:
+## Struktura
 
-- úplnou citaci,
-- DOI, PMID nebo stabilní URL,
-- typ studie a populaci,
-- hlavní výsledky,
-- omezení,
-- vztah k výzkumné otázce,
-- datum kontroly.
+- `records/` – jeden kontrolní Markdown záznam pro každý zařazený zdroj
+- `searches/` – reprodukovatelné rešeršní protokoly a přesné dotazy
+- `evidence/` – syntézy, tabulky evidence a hodnocení kvality
+- `instruments/` – ověřené informace o měřicích nástrojích, licencích a validaci
+- [`evidence-matrix.md`](evidence-matrix.md) – centrální mapa důkazů k otázkám a sekcím
+- `library.bib` – koordinovaná bibliografická databáze pro export
+- [`record-template.md`](record-template.md) – šablona záznamu zdroje
+- [`search-template.md`](search-template.md) – šablona rešeršního protokolu
 
-Plné texty ukládej jen tehdy, pokud to dovolují licenční podmínky. Osobní a zdravotní údaje patří výhradně do ignorované složky `private/`.
+Každý zdroj musí mít ověřitelné identifikátory a záznam o tom, zda byl kontrolován plný text nebo pouze abstrakt. Plné texty ukládej jen při oprávněném přístupu a automaticky je nezařazuj do Gitu.
